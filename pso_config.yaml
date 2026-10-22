@@ -1,0 +1,20 @@
+project: AI-Based Manufacturing Company Capital and Registration Trend Analysis
+optimization_algorithm: Particle Swarm Optimization
+prediction_model: RandomForestRegressor
+dataset_path: C:\Users\sagni\Downloads\AI-Based Manufacturing Company Capital and
+  Registration Trend Analysis\4dbe5667-7b6b-41d7-82af-211562424d9a.csv
+target: PaidupCapital
+random_state: 42
+test_size: 0.2
+pso_settings:
+  particles: 8
+  iterations: 12
+  inertia_weight: 0.7
+  cognitive_coefficient: 1.5
+  social_coefficient: 1.5
+best_hyperparameters:
+  n_estimators: 54
+  max_depth: 12
+  min_samples_split: 2
+  min_samples_leaf: 1
+best_cross_validation_mae: 12468330.246913582

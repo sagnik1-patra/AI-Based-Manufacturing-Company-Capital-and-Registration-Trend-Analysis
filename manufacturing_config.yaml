@@ -1,0 +1,31 @@
+project_name: AI-Based Manufacturing Company Capital and Registration Trend Analysis
+dataset:
+  file_path: C:\Users\sagni\Downloads\AI-Based Manufacturing Company Capital and Registration
+    Trend Analysis\4dbe5667-7b6b-41d7-82af-211562424d9a.csv
+  total_records: 10
+  total_features: 13
+machine_learning:
+  target: PaidupCapital
+  random_state: 42
+  test_size: 0.2
+  models:
+  - RandomForestRegressor
+  - NeuralNetwork
+random_forest:
+  n_estimators: 100
+  max_depth: 4
+neural_network:
+  hidden_layers:
+  - 32
+  - 16
+  - 8
+  activation: relu
+  optimizer: adam
+  learning_rate: 0.001
+  epochs: 200
+  batch_size: 2
+output_files:
+  h5: manufacturing_model.h5
+  pkl: manufacturing_model.pkl
+  yaml: manufacturing_config.yaml
+  json: manufacturing_metadata.json

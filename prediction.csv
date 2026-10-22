@@ -1,0 +1,3 @@
+Original_Row_Index,Actual_PaidupCapital,RF_Predicted_PaidupCapital,NN_Predicted_PaidupCapital,RF_Absolute_Error,NN_Absolute_Error
+1,1000000.0,2275470.0,3516518.0,1275470.0,2516518.0
+8,100000.0,112353.33333333331,1205207.5,12353.333333333314,1105207.5
